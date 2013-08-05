@@ -99,6 +99,10 @@ PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.audio.low_latency.xml:system/etc/permissions/android.hardware.audio.low_latency.xml \
 	frameworks/native/data/etc/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml
 
+# GSM APN list
+PRODUCT_COPY_FILES += \
+    vendor/orca/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
+    
 # GPS configuration
 PRODUCT_COPY_FILES += \
 	device/lge/mako/gps.conf:system/etc/gps.conf
